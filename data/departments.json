@@ -1,0 +1,107 @@
+[
+  {
+    "Key": "aero",
+    "DeptName": "Aerospace Engineering Courses",
+    "CourseListURL": "https://bulletin.engin.umich.edu/courses/aero/"
+  },
+  {
+    "Key": "appl-phys",
+    "DeptName": "Applied Physics Courses",
+    "CourseListURL": "https://bulletin.engin.umich.edu/courses/appl-phys/"
+  },
+  {
+    "Key": "bme",
+    "DeptName": "Biomedical Engineering Courses",
+    "CourseListURL": "https://bulletin.engin.umich.edu/courses/bme/"
+  },
+  {
+    "Key": "che",
+    "DeptName": "Chemical Engineering Courses",
+    "CourseListURL": "https://bulletin.engin.umich.edu/courses/che/"
+  },
+  {
+    "Key": "cee",
+    "DeptName": "Civil and Environmental Engineering Courses",
+    "CourseListURL": "https://bulletin.engin.umich.edu/courses/cee/"
+  },
+  {
+    "Key": "clasp",
+    "DeptName": "Climate and Space Sciences and Engineering Courses",
+    "CourseListURL": "https://bulletin.engin.umich.edu/courses/clasp/"
+  },
+  {
+    "Key": "eecs",
+    "DeptName": "Electrical Engineering and Computer Science Courses",
+    "CourseListURL": "https://bulletin.engin.umich.edu/courses/eecs/"
+  },
+  {
+    "Key": "engr",
+    "DeptName": "Engineering Division Courses",
+    "CourseListURL": "https://bulletin.engin.umich.edu/courses/engr/"
+  },
+  {
+    "Key": "eer",
+    "DeptName": "Engineering Education Research Courses",
+    "CourseListURL": "https://bulletin.engin.umich.edu/courses/eer/"
+  },
+  {
+    "Key": "entr",
+    "DeptName": "Entrepreneurship Courses",
+    "CourseListURL": "https://bulletin.engin.umich.edu/courses/entr/"
+  },
+  {
+    "Key": "ioe",
+    "DeptName": "Industrial and Operations Engineering Courses",
+    "CourseListURL": "https://bulletin.engin.umich.edu/courses/ioe/"
+  },
+  {
+    "Key": "isd",
+    "DeptName": "Integrative Systems + Design Courses",
+    "CourseListURL": "https://bulletin.engin.umich.edu/courses/isd/"
+  },
+  {
+    "Key": "macro-se",
+    "DeptName": "Macromolecular Science and Engineering Courses",
+    "CourseListURL": "https://bulletin.engin.umich.edu/courses/macro-se/"
+  },
+  {
+    "Key": "matscie",
+    "DeptName": "Materials Science and Engineering Courses",
+    "CourseListURL": "https://bulletin.engin.umich.edu/courses/matscie/"
+  },
+  {
+    "Key": "me",
+    "DeptName": "Mechanical Engineering Courses",
+    "CourseListURL": "https://bulletin.engin.umich.edu/courses/me/"
+  },
+  {
+    "Key": "moep",
+    "DeptName": "Military Officer Education Program",
+    "CourseListURL": "https://bulletin.engin.umich.edu/courses/moep/"
+  },
+  {
+    "Key": "name",
+    "DeptName": "Naval Architecture and Marine Engineering Courses",
+    "CourseListURL": "https://bulletin.engin.umich.edu/courses/name/"
+  },
+  {
+    "Key": "ners",
+    "DeptName": "Nuclear Engineering and Radiological Sciences Courses",
+    "CourseListURL": "https://bulletin.engin.umich.edu/courses/ners/"
+  },
+  {
+    "Key": "robotics",
+    "DeptName": "Robotics Courses",
+    "CourseListURL": "https://bulletin.engin.umich.edu/courses/robotics-courses/"
+  },
+  {
+    "Key": "techcomm",
+    "DeptName": "Technical Communications Courses",
+    "CourseListURL": "https://bulletin.engin.umich.edu/courses/techcomm/"
+  },
+  {
+    "Key": "uarts",
+    "DeptName": "UARTS Courses",
+    "CourseListURL": "https://bulletin.engin.umich.edu/courses/uarts-courses/"
+  }
+]
