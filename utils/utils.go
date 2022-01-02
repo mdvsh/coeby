@@ -33,7 +33,7 @@ func ParseKeyAliases(s string) (string, []string) {
 	} else {
 		aliases = []string{}
 	}
-	courseKey = strings.Split(s, ".")[0]
+	courseKey = strings.Trim(strings.Split(s, ".")[0], " ")
 	return courseKey, aliases
 }
 

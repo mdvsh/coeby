@@ -23,7 +23,7 @@ type Course struct {
 	Desc        string
 	ProfileLink string
 	Credits     int
-	MinGrade    string
+	RawReqs     string
 	Aliases     []string
 	Prereqs     []Requisite
 	Coreqs      []Requisite
@@ -55,10 +55,8 @@ func parseCourse(courseElem soup.Root, dept DepartmentCourseMap) Course {
 	key, aliases = utils.ParseKeyAliases(unparsedKeyName)
 	c.Key = key
 	c.Aliases = aliases
-
 	c.DeptKey = dept.Key
 	strDatArr := strings.Split(unparsedKeyName, ".")
-
 	c.Name = utils.CleanInvisText(strings.Trim(strDatArr[1], " "))
 	c.Desc = utils.CleanInvisText(courseElem.Text())
 
@@ -78,9 +76,9 @@ func parseCourse(courseElem soup.Root, dept DepartmentCourseMap) Course {
 		return c
 	}
 
-	unparsedReqCreds := strings.Split(reqsPlus.FullText(), ".")
-
+	unparsedReqCreds := strings.Split(reqsPlus.Text(), ".")
 	c.Credits = utils.ParseCredits(unparsedReqCreds)
+	c.RawReqs = utils.CleanInvisText(unparsedReqCreds[0])
 	return c
 }
 
