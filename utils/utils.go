@@ -4,6 +4,8 @@ import (
 	"regexp"
 	"strconv"
 	"strings"
+
+	"github.com/anaskhan96/soup"
 )
 
 func GetKey(deptLink string) string {
@@ -34,4 +36,16 @@ func ParseCredits(s []string) int {
 		credits = maxCredit
 	}
 	return credits
+}
+
+func CheckElemExistence(e soup.Root) bool {
+	return e.Error != nil && e.Error.(soup.Error).Type == soup.ErrElementNotFound
+}
+
+func CleanInvisText(desc string) string {
+	return strings.Replace(desc, "\u00a0", " ", -1)
+}
+
+func ParseReqs(s []string) {
+	// todo
 }

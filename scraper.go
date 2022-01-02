@@ -1,8 +1,6 @@
 package main
 
 import (
-	"bufio"
-	"encoding/json"
 	"fmt"
 	"log"
 	"os"
@@ -25,6 +23,7 @@ type Course struct {
 	Desc        string
 	ProfileLink string
 	Credits     int
+	MinGrade    string
 	CoLists     []string
 	Prereqs     []Requisite
 	Coreqs      []Requisite
@@ -44,34 +43,42 @@ type Requisite struct {
 func parseCourse(courseElem soup.Root, dept DepartmentCourseMap) Course {
 	var c Course
 	var unparsedKeyName string
-	c.DeptKey = dept.Key
 	unparsedKeyName = courseElem.Find("strong").FullText()
 
 	if len(strings.Split(unparsedKeyName, ".")) != 2 {
 		unparsedKeyName += courseElem.Find("strong").FindNextSibling().FullText()
 	}
 
-	c.Key = strings.Split(unparsedKeyName, ".")[0]
-	c.Name = strings.Trim(strings.Split(unparsedKeyName, ".")[1], " ")
+	c.DeptKey = dept.Key
+	strDatArr := strings.Split(unparsedKeyName, ".")
+	c.Key = strDatArr[0]
+	c.Name = utils.CleanInvisText(strings.Trim(strDatArr[1], " "))
+	c.Desc = utils.CleanInvisText(courseElem.Text())
 
-	fmt.Println("key: ", c.Key, " name: ", c.Name)
+	links := courseElem.FindAll("a")
+	if len(links) == 0 {
+		c.ProfileLink = ""
+	} else {
+		c.ProfileLink = links[0].Attrs()["href"]
+	}
 
 	reqsPlus := courseElem.Find("em")
 	// catch error if no cannot find element having information for reqs and credits
-	if reqsPlus.Error != nil && reqsPlus.Error.(soup.Error).Type == soup.ErrElementNotFound {
+	if utils.CheckElemExistence(reqsPlus) {
 		c.Prereqs = nil
+		c.Coreqs = nil
 		c.Credits = 0
 		return c
 	}
 
 	unparsedReqCreds := strings.Split(reqsPlus.FullText(), ".")
+
 	c.Credits = utils.ParseCredits(unparsedReqCreds)
-	fmt.Println("credits: ", c.Credits)
 	return c
 }
 
 func seedDeptCourses(dept DepartmentCourseMap) {
-	// var courses []Course
+	var courses []Course
 
 	resp, err := soup.Get(dept.CourseListURL)
 	if err != nil && err.(soup.Error).Type == soup.ErrInGetRequest {
@@ -81,26 +88,16 @@ func seedDeptCourses(dept DepartmentCourseMap) {
 	doc := soup.HTMLParse(resp)
 	courseList := doc.Find("div", "class", "entry-content").FindAll("p")
 	for _, courseElem := range courseList[1:] {
-		parseCourse(courseElem, dept)
+		// get course and append to courses
+		c := parseCourse(courseElem, dept)
+		courses = append(courses, c)
 	}
+	fname := fmt.Sprintf("%s.json", dept.Key)
+
+	utils.SaveDB(fname, courses)
 }
 
-func save(depts []DepartmentCourseMap, fname string) {
-	jsonFile, err := os.Create("data/" + fname)
-	if err != nil {
-		log.Printf("Error creating json file\n %s", err)
-		panic(err)
-	}
-	defer jsonFile.Close()
-	jsonWriter := bufio.NewWriter(jsonFile)
-	defer jsonWriter.Flush()
-	enc := json.NewEncoder(jsonWriter)
-	enc.SetIndent("", "  ")
-	enc.Encode(depts)
-	fmt.Println("saved to database")
-}
-
-func seed() []DepartmentCourseMap {
+func seedDepartments() []DepartmentCourseMap {
 	var depts []DepartmentCourseMap
 
 	resp, err := soup.Get("https://bulletin.engin.umich.edu/courses/")
@@ -124,7 +121,16 @@ func seed() []DepartmentCourseMap {
 
 func main() {
 	fmt.Println("booting up coeby")
-	depts := seed()
-	save(depts, "depts.json")
+
+	var depts []DepartmentCourseMap
+	if _, err := os.Stat("data/depts.json"); os.IsNotExist(err) {
+		fmt.Println("depts.json not found, fetching from bulletin")
+		depts = seedDepartments()
+		utils.SaveDB("depts.json", depts)
+	} else {
+		fmt.Println("depts.json found, seeding database")
+		utils.LoadDeptDB(&depts)
+	}
+
 	seedDeptCourses(depts[0])
 }
