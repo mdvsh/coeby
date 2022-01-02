@@ -25,19 +25,30 @@ type Course struct {
 	Credits     int
 	RawReqs     string
 	Aliases     []string
-	Prereqs     []Requisite
-	Coreqs      []Requisite
+	ReqProps    RequisiteProps
 }
 
 /*
-* type can be:
-	enforced
-	advisory
-	permission of instructor
-*/
-type Requisite struct {
-	CourseKey string
-	Type      string
+* requisite properteis include:
+* 		enforced
+* 		advisory
+* 		minimum grade in reqs
+* 		standing
+* 		permission of instructor
+ */
+type RequisiteProps struct {
+	CourseKey       string
+	Enforced        []RequisiteCourse
+	Advisory        []RequisiteCourse
+	Standing        string
+	InstructorPerms bool
+}
+
+type RequisiteCourse struct {
+	Key               string
+	OrEquivalent      bool
+	KnownEquivalences []string
+	canAccompany      bool
 }
 
 func parseCourse(courseElem soup.Root, dept DepartmentCourseMap) Course {
