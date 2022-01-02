@@ -24,7 +24,7 @@ type Course struct {
 	ProfileLink string
 	Credits     int
 	MinGrade    string
-	CoLists     []string
+	Aliases     []string
 	Prereqs     []Requisite
 	Coreqs      []Requisite
 }
@@ -45,21 +45,28 @@ func parseCourse(courseElem soup.Root, dept DepartmentCourseMap) Course {
 	var unparsedKeyName string
 	unparsedKeyName = courseElem.Find("strong").FullText()
 
+	// aero specific
 	if len(strings.Split(unparsedKeyName, ".")) != 2 {
 		unparsedKeyName += courseElem.Find("strong").FindNextSibling().FullText()
 	}
 
+	var key string
+	var aliases []string
+	key, aliases = utils.ParseKeyAliases(unparsedKeyName)
+	c.Key = key
+	c.Aliases = aliases
+
 	c.DeptKey = dept.Key
 	strDatArr := strings.Split(unparsedKeyName, ".")
-	c.Key = strDatArr[0]
+
 	c.Name = utils.CleanInvisText(strings.Trim(strDatArr[1], " "))
 	c.Desc = utils.CleanInvisText(courseElem.Text())
 
-	links := courseElem.FindAll("a")
-	if len(links) == 0 {
+	link := courseElem.Find("a")
+	if utils.CheckElemExistence(link) {
 		c.ProfileLink = ""
 	} else {
-		c.ProfileLink = links[0].Attrs()["href"]
+		c.ProfileLink = link.Attrs()["href"]
 	}
 
 	reqsPlus := courseElem.Find("em")
@@ -133,4 +140,9 @@ func main() {
 	}
 
 	seedDeptCourses(depts[0])
+
+	// for _, dept := range depts {
+	// 	fmt.Println("seeding", dept.DeptName)
+	// 	seedDeptCourses(dept)
+	// }
 }

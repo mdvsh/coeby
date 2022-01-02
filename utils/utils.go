@@ -17,6 +17,26 @@ func GetKey(deptLink string) string {
 	return foo
 }
 
+func ParseKeyAliases(s string) (string, []string) {
+	// var of arry of s
+	var aliases []string
+	var courseKey string
+	// go regex doesn't support lookarounds to extract text in multiple groups of parentheses
+	// hacky way ahead
+	re := regexp.MustCompile(`\(([^\)]+)\)`)
+	aliases = re.FindAllString(s, -1)
+	if aliases != nil {
+		for i, alias := range aliases {
+			aliases[i] = strings.Trim(alias, "()")
+			s = strings.Replace(s, alias, "", -1)
+		}
+	} else {
+		aliases = []string{}
+	}
+	courseKey = strings.Split(s, ".")[0]
+	return courseKey, aliases
+}
+
 func ParseCredits(s []string) int {
 	var credits int
 	re := regexp.MustCompile("[0-9]+")
