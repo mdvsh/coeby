@@ -6,10 +6,16 @@
     "Desc": "An introduction to leadership, culture, and wide variety of technical fields that are part of the design, construction, and operations of Aeronautical and Astronautical vehicles. The course includes numerous seminars by notable practitioners. ",
     "ProfileLink": "http://atlas.ai.umich.edu/course/AEROSP%20200/",
     "Credits": 2,
-    "RawReqs": "Prerequisite: None (2 credits)",
     "Aliases": [],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": true,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": false,
+      "Notes": "",
+      "Raw": ""
+    }
   },
   {
     "DeptKey": "aero",
@@ -18,10 +24,16 @@
     "Desc": "Introduction to Aerospace Engineering. Flight vehicles in the atmosphere and in space. Flight technologies, including structures, materials, propulsion, aerodynamics, vehicle dynamics, flight control, flight information systems and systems integration. An overview of aeronautics. Steady aircraft flight and performance. An overview of astronautics. ",
     "ProfileLink": "http://atlas.ai.umich.edu/course/AEROSP%20201/",
     "Credits": 2,
-    "RawReqs": "Prerequisite: ENGR 100 (or equivalent) and 101 or 151 and PHYSICS 140 and 141 and MATH 116 or equivalent",
     "Aliases": [],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": false,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": false,
+      "Notes": "",
+      "Raw": "Prerequisite: ENGR 100 (or equivalent) and 101 or 151 and PHYSICS 140 and 141 and MATH 116 or equivalent. Minimum grade of a “C-” for enforced prerequisites. "
+    }
   },
   {
     "DeptKey": "aero",
@@ -30,10 +42,16 @@
     "Desc": "A Systems Engineering Experience: Introduces engineering processes by means of design, build, test and operation of flight vehicles. Exposure to technologies including: computer aided design, manufacturing, simulation, composites, mechanisms, instrumentation and basic electronics. Embedded software development for data acquisition and processing, control and communications. Individual and team projects. ",
     "ProfileLink": "http://atlas.ai.umich.edu/course/AEROSP%20205/",
     "Credits": 3,
-    "RawReqs": "Prerequisites: PHYS 140, 141, MATH 116, ENGR 100, ENGR 101 or 151",
     "Aliases": [],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": false,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": false,
+      "Notes": "",
+      "Raw": "Prerequisites: PHYS 140, 141, MATH 116, ENGR 100, ENGR 101 or 151. "
+    }
   },
   {
     "DeptKey": "aero",
@@ -42,10 +60,16 @@
     "Desc": "An introduction to the fundamental phenomena of solid and structural mechanics in Aerospace systems. Includes analysis and numerical methods of solutions used for design of thin-walled Aerospace structures. Emphasis is placed on understanding behavior particular to thin-walled structures. ",
     "ProfileLink": "http://atlas.ai.umich.edu/course/AEROSP%20215/",
     "Credits": 3,
-    "RawReqs": "Advisory Prerequisite: Preceded or accompanied by MATH 216 and AEROSP 201",
     "Aliases": [],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": false,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": false,
+      "Notes": "",
+      "Raw": "Advisory Prerequisite: Preceded or accompanied by MATH 216 and AEROSP 201. "
+    }
   },
   {
     "DeptKey": "aero",
@@ -54,10 +78,16 @@
     "Desc": "This course covers fundamental concepts in thermodynamics and fluid dynamics. Topics include molecular and continuum concepts for fluids, first and second laws of thermodynamics, conservation laws for moving fluids, one-dimensional compressible flows, shocks and expansion waves, flows in nozzles, and two- and three-dimensional compressible flows.",
     "ProfileLink": "http://atlas.ai.umich.edu/course/AEROSP%20225/",
     "Credits": 3,
-    "RawReqs": "Prerequisite: (MATH 215 or 255 or 285) and (CHEM 125 and130) and (PHYSICS 140 or 160) and PHYSICS 141",
     "Aliases": [],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": false,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": false,
+      "Notes": "",
+      "Raw": "Prerequisite: (MATH 215 or 255 or 285) and (CHEM 125 and130) and (PHYSICS 140 or 160) and PHYSICS 141. Minimum grade of a “C-” for enforced prerequisites. "
+    }
   },
   {
     "DeptKey": "aero",
@@ -66,10 +96,16 @@
     "Desc": "Study aspects of aerospace engineering that are not suitable for technical elective credit. May be used for student team projects, pilot ground school, UROP or other academic studies that are directed by an Aerospace Engineering faculty member. ",
     "ProfileLink": "http://atlas.ai.umich.edu/course/AEROSP%20290/",
     "Credits": 3,
-    "RawReqs": "Prerequisite: Permission of instructor (1-3 credits)",
     "Aliases": [],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": false,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": true,
+      "Notes": "",
+      "Raw": "Prerequisite: Permission of instructor "
+    }
   },
   {
     "DeptKey": "aero",
@@ -78,10 +114,16 @@
     "Desc": " ",
     "ProfileLink": "http://atlas.ai.umich.edu/course/AEROSP%20305/",
     "Credits": 260,
-    "RawReqs": "Advisory Prerequisite: Preceded by AEROSP 205, AEROSP 215, AEROSP 225, and PHYSICS 240 or PHYSICS 260",
     "Aliases": [],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": false,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": false,
+      "Notes": "",
+      "Raw": "Advisory Prerequisite: Preceded by AEROSP 205, AEROSP 215, AEROSP 225, and PHYSICS 240 or PHYSICS 260"
+    }
   },
   {
     "DeptKey": "aero",
@@ -90,10 +132,16 @@
     "Desc": "An introduction to the fundamental phenomena of solid and structural mechanics in aerospace systems. Includes analysis and numerical methods of solution that are used for design of aerospace structures. ",
     "ProfileLink": "http://atlas.ai.umich.edu/course/AEROSP%20315/",
     "Credits": 3,
-    "RawReqs": "Advisory Prerequisite: AEROSP 215 and MATH 216",
     "Aliases": [],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": false,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": false,
+      "Notes": "",
+      "Raw": "Advisory Prerequisite: AEROSP 215 and MATH 216. "
+    }
   },
   {
     "DeptKey": "aero",
@@ -102,10 +150,16 @@
     "Desc": "Fundamental concepts in aerodynamics. Students learn how airfoils produce lift and how the pressure distribution about an airfoil can be calculated. Introduces the boundary-layer concept, how boundary layers lead to drag and what makes them prone to instability and turbulence or separation. ",
     "ProfileLink": "http://atlas.ai.umich.edu/course/AEROSP%20325/",
     "Credits": 3,
-    "RawReqs": "Advisory Prerequisite: preceded by MATH 216 and AEROSP 225",
     "Aliases": [],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": false,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": false,
+      "Notes": "",
+      "Raw": "Advisory Prerequisite: preceded by MATH 216 and AEROSP 225. "
+    }
   },
   {
     "DeptKey": "aero",
@@ -114,10 +168,16 @@
     "Desc": "Airbreathing propulsion, rocket propulsion and an introduction to modern advanced propulsion concepts. Includes thermodynamic cycles as related to propulsion and the chemistry and thermodynamics of combustion. Students analyze turbojets, turbofans and other air-breathing propulsion systems. Introduces liquid- and solid-propellant rockets and advanced propulsion concepts such as Hall thrusters and pulsed plasma thrusters. Students also learn about the environmental impact of propulsion systems and work in teams to design a jet engine. ",
     "ProfileLink": "http://atlas.ai.umich.edu/course/AEROSP%20335/",
     "Credits": 3,
-    "RawReqs": "Advisory Prerequisite: preceded by AEROSP 225 and MATH 216",
     "Aliases": [],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": false,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": false,
+      "Notes": "",
+      "Raw": "Advisory Prerequisite: preceded by AEROSP 225 and MATH 216. "
+    }
   },
   {
     "DeptKey": "aero",
@@ -126,10 +186,16 @@
     "Desc": "Introduction to the dynamics and control of atmospheric flight vehicles. Nonlinear equations of motion. Stability derivatives and linearized equations for longitudinal and lateral flight dynamics. Concepts from linear systems: state equations, transfer functions, stability, time response, frequency response. Flight simulation using relevant software. ",
     "ProfileLink": "http://atlas.ai.umich.edu/course/AEROSP%20341/",
     "Credits": 3,
-    "RawReqs": "Prerequisite: MECHENG 240, MATH 216 and AEROSP 201",
     "Aliases": [],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": false,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": false,
+      "Notes": "",
+      "Raw": "Prerequisite: MECHENG 240, MATH 216 and AEROSP 201. Minimum grade of a “C-” for enforced prerequisites. "
+    }
   },
   {
     "DeptKey": "aero",
@@ -138,10 +204,16 @@
     "Desc": "",
     "ProfileLink": "http://atlas.ai.umich.edu/course/AEROSP%20343/",
     "Credits": 3,
-    "RawReqs": "Prerequisite: MECHENG 240, MATH 216 and AEROSP 201",
     "Aliases": [],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": false,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": false,
+      "Notes": "",
+      "Raw": "Prerequisite: MECHENG 240, MATH 216 and AEROSP 201. Minimum grade of a “C-” for enforced prerequisites. "
+    }
   },
   {
     "DeptKey": "aero",
@@ -150,10 +222,16 @@
     "Desc": "Fundamentals of computer science, computational science, and embedded systems, with applications from aerospace engineering. Topics include: pointers; data structures; algorithms; computational complexity; signal decomposition; numerical linear algebra;",
     "ProfileLink": "http://atlas.ai.umich.edu/course/AEROSP%20350/",
     "Credits": 3,
-    "RawReqs": "Advisory Prerequisite: MATH 216 and ENG 101",
     "Aliases": [],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": false,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": false,
+      "Notes": "",
+      "Raw": "Advisory Prerequisite: MATH 216 and ENG 101. "
+    }
   },
   {
     "DeptKey": "aero",
@@ -162,10 +240,16 @@
     "Desc": "Design process including specifications, configurations, trades and design drivers. Introduction to solid visualization and modeling through an integrated CAD/CAE/CAM/PDM software package in the context of the design process. The role of CAD in analysis, manufacturing and product management. Flight vehicle related projects. ",
     "ProfileLink": "http://atlas.ai.umich.edu/course/AEROSP%20384/",
     "Credits": 3,
-    "RawReqs": "Prerequisite: Preceded or accompanied by AEROSP 201 and AEROSP 215",
     "Aliases": [],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": false,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": false,
+      "Notes": "",
+      "Raw": "Prerequisite: Preceded or accompanied by AEROSP 201 and AEROSP 215. "
+    }
   },
   {
     "DeptKey": "aero",
@@ -174,10 +258,16 @@
     "Desc": "Study specialized aspects of aerospace engineering. May be used for student team projects, pilot certification or other academic studies that are directed by an Aerospace Engineering faculty member. The student will submit a final report. ",
     "ProfileLink": "http://atlas.ai.umich.edu/course/AEROSP%20390/",
     "Credits": 3,
-    "RawReqs": "Prerequisite: Permission of instructor (1-3 credits)",
     "Aliases": [],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": false,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": true,
+      "Notes": "",
+      "Raw": "Prerequisite: Permission of instructor "
+    }
   },
   {
     "DeptKey": "aero",
@@ -186,10 +276,16 @@
     "Desc": "Second course of a two-semester sequence covering fundamentals of instrumentation and measurement and their application in engineering testing and experimentation. Focuses primarily on application of the fundamental principles learned in Aero 305 to more advanced test and measurement applications. Involves instructor-designed experiments and one major project conceived, designed, conducted, analyzed and reported by student teams. Emphasizes development of skills for written communication and for working effectively in a team environment. ",
     "ProfileLink": "http://atlas.ai.umich.edu/course/AEROSP%20405/",
     "Credits": 4,
-    "RawReqs": "Prerequisite: Preceded by AEROSP 305",
     "Aliases": [],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": false,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": false,
+      "Notes": "",
+      "Raw": "Prerequisite: Preceded by AEROSP 305. Preceded or accompanied by AEROSP 315 and AEROSP 325. "
+    }
   },
   {
     "DeptKey": "aero",
@@ -198,12 +294,18 @@
     "Desc": "Linear elastic plates. Membrane and bending theory of axisymmetric and non-axisymmetric shells. Variational formulation of governing equations boundary conditions. Finite element techniques for plate and shell problems. ",
     "ProfileLink": "http://atlas.ai.umich.edu/course/AEROSP%20416/",
     "Credits": 3,
-    "RawReqs": "Prerequisite: AEROSP 315",
     "Aliases": [
       "NAVARCH 416"
     ],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": false,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": false,
+      "Notes": "",
+      "Raw": "Prerequisite: AEROSP 315. "
+    }
   },
   {
     "DeptKey": "aero",
@@ -212,10 +314,16 @@
     "Desc": "This course teaches contemporary aerodynamic analysis and design of aerospace vehicles and other systems. Topics include: review of theoretical concepts and methods, computer-based CFD tools, experimental methods and wind tunnel testing. Case studies are discussed to illustrate the combined use of advanced aerodynamic design methods. A team project is required. ",
     "ProfileLink": "http://atlas.ai.umich.edu/course/AEROSP%20421/",
     "Credits": 3,
-    "RawReqs": "Prerequisite: AEROSP 325",
     "Aliases": [],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": false,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": false,
+      "Notes": "",
+      "Raw": "Prerequisite: AEROSP 325. "
+    }
   },
   {
     "DeptKey": "aero",
@@ -224,10 +332,16 @@
     "Desc": "This course covers computational methods used in Aerospace engineering, including time integration techniques for ordinary differential equations, finite differences, finite volumes, finite elements, and probabilistic methods. Emphasis is placed on analysis and implementation of the underlying numerical methods. Computer programming in Matlab or a similar language is required. ",
     "ProfileLink": "http://atlas.ai.umich.edu/course/AEROSP%20423/",
     "Credits": 3,
-    "RawReqs": "Prerequisite: ENGR 101 or ENGR 151, MATH 216, and AEROSP 350 w/ minimum grade of C-",
     "Aliases": [],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": false,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": false,
+      "Notes": "",
+      "Raw": "Prerequisite: ENGR 101 or ENGR 151, MATH 216, and AEROSP 350 w/ minimum grade of C-. "
+    }
   },
   {
     "DeptKey": "aero",
@@ -236,10 +350,16 @@
     "Desc": "Flight-oriented models of aerospace vehicles. Analytical modeling principles for analysis and control. Computer-based simulation, performance evaluation and model validation. Flight properties of various aerospace vehicles, such as fixed-wing aircraft, rotorcraft, launch and reentry vehicles, orbiters and interplanetary vehicles. ",
     "ProfileLink": "http://atlas.ai.umich.edu/course/AEROSP%20445/",
     "Credits": 3,
-    "RawReqs": "Prerequisite: AEROSP 470 (Advisory)",
     "Aliases": [],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": false,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": false,
+      "Notes": "",
+      "Raw": "Prerequisite: AEROSP 470 (Advisory). "
+    }
   },
   {
     "DeptKey": "aero",
@@ -248,10 +368,16 @@
     "Desc": "Theory and practice of obtaining flight-test data on performance and stability of airplanes from actual flight tests. Modern electronic flight test instrumentation, collection of flight test data, calibration procedures for air data sensors, estimation of stability derivatives from flight test data. ",
     "ProfileLink": "http://atlas.ai.umich.edu/course/AEROSP%20447/",
     "Credits": 3,
-    "RawReqs": "Prerequisite: AEROSP 305 and AEROSP 341 (Advisory)",
     "Aliases": [],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": false,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": false,
+      "Notes": "",
+      "Raw": "Prerequisite: AEROSP 305 and AEROSP 341 (Advisory). "
+    }
   },
   {
     "DeptKey": "aero",
@@ -260,10 +386,16 @@
     "Desc": "Theory and practice of embedded flight software systems. Computational theory topics include discrete mathematics, finite automata, computational complexity and model checking. Software development concepts include object oriented programming, networks, multi-threaded software, real-time scheduling and sensor/actuator interface protocols. Emphasis placed on C/C++ development in Linux with guidance, navigational control applications. ",
     "ProfileLink": "http://atlas.ai.umich.edu/course/AEROSP%20450/",
     "Credits": 3,
-    "RawReqs": "Prerequisite: ENGR 101 and AEROSP 201, or graduate standing",
     "Aliases": [],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": false,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": false,
+      "Notes": "",
+      "Raw": "Prerequisite: ENGR 101 and AEROSP 201, or graduate standing. "
+    }
   },
   {
     "DeptKey": "aero",
@@ -272,10 +404,16 @@
     "Desc": "Foundations of classical control theory; introduction to observers and state space control theory; effect of nonlinearities; application to aircraft and spacecraft; simulation of control systems using relevant software. ",
     "ProfileLink": "http://atlas.ai.umich.edu/course/AEROSP%20470/",
     "Credits": 3,
-    "RawReqs": "Advisory Prerequisite: AEROSP 341 or AEROSP 343",
     "Aliases": [],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": false,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": false,
+      "Notes": "",
+      "Raw": "Advisory Prerequisite: AEROSP 341 or AEROSP 343. "
+    }
   },
   {
     "DeptKey": "aero",
@@ -284,10 +422,16 @@
     "Desc": "Multidisciplinary integration of aerodynamics, performance, stability and control, propulsion, structures and aeroelasticity in a systems approach aimed at designing an aircraft for a set of specifications. Includes weight estimates, configuration and power plant selection, tail-sizing, maneuver and gust diagrams, wing loading, structural and aeroelastic analysis. Students work in teams on the design project. ",
     "ProfileLink": "http://atlas.ai.umich.edu/course/AEROSP%20481/",
     "Credits": 4,
-    "RawReqs": "Prerequisite: Preceded by AEROSP 325",
     "Aliases": [],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": false,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": false,
+      "Notes": "",
+      "Raw": "Prerequisite: Preceded by AEROSP 325. Preceded or accompanied by AEROSP 315, AEROSP 335 and AEROSP 348 (Advisory). "
+    }
   },
   {
     "DeptKey": "aero",
@@ -296,10 +440,16 @@
     "Desc": "Introduction to the engineering design process for space systems. Includes a lecture phase that covers mission planning, launch vehicle integration, propulsion, power systems, communications, budgeting and reliability. Subsequently, students experience the latest practices in space-systems engineering by forming into mission-component teams and collectively designing a space mission. Effective team and communication skills are emphasized. Report writing and presentations are required throughout, culminating in the final report and public presentation. ",
     "ProfileLink": "http://atlas.ai.umich.edu/course/AEROSP%20483/",
     "Credits": 4,
-    "RawReqs": "Prerequisite: preceded by AEROSP 343",
     "Aliases": [],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": false,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": false,
+      "Notes": "",
+      "Raw": "Prerequisite: preceded by AEROSP 343. Preceded or accompanied by AEROSP 315, 325, and 335 (Advisory). "
+    }
   },
   {
     "DeptKey": "aero",
@@ -308,10 +458,16 @@
     "Desc": "Advanced computer-aided design. Students learn about computer generation of geometric models, calculation of design parameters, trade-off diagrams and finite-element modeling and analysis. Each student carries out a structural component design using industry-standard software. The course includes individual and team assignments. ",
     "ProfileLink": "http://atlas.ai.umich.edu/course/AEROSP%20484/",
     "Credits": 4,
-    "RawReqs": "Prerequisite: preceded by AEROSP 315, AEROSP 325, AEROSP 335, and AEROSP 341 or 343 (Advisory)",
     "Aliases": [],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": false,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": false,
+      "Notes": "",
+      "Raw": "Prerequisite: preceded by AEROSP 315, AEROSP 325, AEROSP 335, and AEROSP 341 or 343 (Advisory). "
+    }
   },
   {
     "DeptKey": "aero",
@@ -320,10 +476,16 @@
     "Desc": "Study of advanced aspects of aerospace engineering directed by an Aerospace faculty member. The student will submit a final report. ",
     "ProfileLink": "http://atlas.ai.umich.edu/course/AEROSP%20490/",
     "Credits": 3,
-    "RawReqs": "Prerequisite: Permission of instructor (1-3 credits)",
     "Aliases": [],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": false,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": true,
+      "Notes": "",
+      "Raw": "Prerequisite: Permission of instructor "
+    }
   },
   {
     "DeptKey": "aero",
@@ -332,10 +494,16 @@
     "Desc": "Specific aerospace engineering topics that are not treated in the regular Aerospace Engineering undergraduate curriculum. ",
     "ProfileLink": "http://atlas.ai.umich.edu/course/AEROSP%20495/",
     "Credits": 4,
-    "RawReqs": "Prerequisite: Permission of instructor",
     "Aliases": [],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": false,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": true,
+      "Notes": "",
+      "Raw": "Prerequisite: Permission of instructor. "
+    }
   },
   {
     "DeptKey": "aero",
@@ -344,10 +512,16 @@
     "Desc": " ",
     "ProfileLink": "http://atlas.ai.umich.edu/course/AEROSP%20500/",
     "Credits": 5,
-    "RawReqs": "Prerequisite: None",
     "Aliases": [],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": true,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": false,
+      "Notes": "",
+      "Raw": ""
+    }
   },
   {
     "DeptKey": "aero",
@@ -356,10 +530,16 @@
     "Desc": "Graduate course in informing optimal engineering decisions based upon product lifecycles and customer",
     "ProfileLink": "http://atlas.ai.umich.edu/course/AEROSP%20501/",
     "Credits": 3,
-    "RawReqs": "Prerequisite: None",
     "Aliases": [],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": true,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": false,
+      "Notes": "",
+      "Raw": ""
+    }
   },
   {
     "DeptKey": "aero",
@@ -368,10 +548,16 @@
     "Desc": "Graduate Capstone course/project where students work in teams of 4-5 to develop a comprehensive",
     "ProfileLink": "http://atlas.ai.umich.edu/course/AEROSP%20502/",
     "Credits": 3,
-    "RawReqs": "Prerequisite: None",
     "Aliases": [],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": true,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": false,
+      "Notes": "",
+      "Raw": ""
+    }
   },
   {
     "DeptKey": "aero",
@@ -380,10 +566,16 @@
     "Desc": "A Model-Based Systems Engineering (MBSE) course covering physical and virtual engineering, emphasizing",
     "ProfileLink": "http://atlas.ai.umich.edu/course/AEROSP%20505/",
     "Credits": 2,
-    "RawReqs": "Prerequisite: None",
     "Aliases": [],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": true,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": false,
+      "Notes": "",
+      "Raw": ""
+    }
   },
   {
     "DeptKey": "aero",
@@ -392,10 +584,16 @@
     "Desc": "Introductory level. Finite element solutions for structural dynamics and nonlinear problems. Normal modes, forced vibrations, Euler buckling (bifurcations), large deflections, nonlinear elasticity, transient heat conduction. Computer laboratory based on a general purpose finite element code. ",
     "ProfileLink": "http://atlas.ai.umich.edu/course/AEROSP%20510/",
     "Credits": 3,
-    "RawReqs": "Prerequisite: AEROSP 315",
     "Aliases": [],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": false,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": false,
+      "Notes": "",
+      "Raw": "Prerequisite: AEROSP 315. "
+    }
   },
   {
     "DeptKey": "aero",
@@ -404,10 +602,16 @@
     "Desc": "Introduction to fundamental principles and latest developments in aerosol science. The dependence of aerosol composition and size distributions on the underlying atmospheric thermodynamics, dynamics, chemistry, and physics will be presented. Recent observations and theoretical treatments are used to illustrate aspects of aerosol science that are poorly quantified at present. ",
     "ProfileLink": "http://atlas.ai.umich.edu/course/AEROSP%20511/",
     "Credits": 3,
-    "RawReqs": "Prerequisite: AEROSP 510 or MECHENG 505",
     "Aliases": [],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": false,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": false,
+      "Notes": "",
+      "Raw": "Prerequisite: AEROSP 510 or MECHENG 505. "
+    }
   },
   {
     "DeptKey": "aero",
@@ -416,10 +620,16 @@
     "Desc": "Lectures and experiments that demonstrate historical and contemporary methods of measurement in solid mechanics. A review of classical experiments that substantiate many typical assumptions (e.g., material linearity or Hooke’s Law) concerning the response of solids. An introduction to contemporary techniques of process measurement involving piezoresistivity. ",
     "ProfileLink": "http://atlas.ai.umich.edu/course/AEROSP%20512/",
     "Credits": 3,
-    "RawReqs": "Prerequisite: AEROSP 305, AEROSP 315 or equivalents",
     "Aliases": [],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": false,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": false,
+      "Notes": "",
+      "Raw": "Prerequisite: AEROSP 305, AEROSP 315 or equivalents. "
+    }
   },
   {
     "DeptKey": "aero",
@@ -428,10 +638,16 @@
     "Desc": "Introduction to linear continuum and structural mechanics. Three-dimensional analysis of stress and infinitesimal strain, including transformation of tensors, equations of motion, and kinematic compatibility. Boundary value problem formation. Constitutive relations for isotropic and anisotropic linear elastic materials. Introduction to variational calculus and energy methods. Applications to thin-walled and slender aerospace structures. ",
     "ProfileLink": "http://atlas.ai.umich.edu/course/AEROSP%20513/",
     "Credits": 3,
-    "RawReqs": "Prerequisite: AEROSP 315, MECHENG 311 or equivalent",
     "Aliases": [],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": false,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": false,
+      "Notes": "",
+      "Raw": "Prerequisite: AEROSP 315, MECHENG 311 or equivalent. "
+    }
   },
   {
     "DeptKey": "aero",
@@ -440,10 +656,16 @@
     "Desc": "Introduction to nonlinear continuum and structural mechanics. Elements of tensor calculus, basic kinematics, conservation laws (mass, linear and angular momentum, energy, etc.), constitutive equations in continual applications in hyperelastic solids, numerical (f.e.m.) methods for the corresponding nonlinear boundary value problems, derivation of nonlinear shell theories from 3-D considerations. ",
     "ProfileLink": "http://atlas.ai.umich.edu/course/AEROSP%20514/",
     "Credits": 3,
-    "RawReqs": "Prerequisite: AEROSP 315 or equivalent",
     "Aliases": [],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": false,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": false,
+      "Notes": "",
+      "Raw": "Prerequisite: AEROSP 315 or equivalent. "
+    }
   },
   {
     "DeptKey": "aero",
@@ -452,10 +674,16 @@
     "Desc": "An introduction to the mechanics of composite (more than one phase) solids with an emphasis on the derivation of macroscopical constitutive laws based on the microstructure. Eshelby transformation theory, self consistent methods, homogenization theory for periodic media, bounding properties for effective moduli of composites. Applications of aerospace interest. ",
     "ProfileLink": "http://atlas.ai.umich.edu/course/AEROSP%20515/",
     "Credits": 3,
-    "RawReqs": "Prerequisite: AEROSP 514 or equivalent",
     "Aliases": [],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": false,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": false,
+      "Notes": "",
+      "Raw": "Prerequisite: AEROSP 514 or equivalent. "
+    }
   },
   {
     "DeptKey": "aero",
@@ -464,10 +692,16 @@
     "Desc": "Effective stiffness properties of composites.  Constitutive description of laminated plates.  Laminated plate theory.  Edge effects in laminates.  Nonlinear theory of generally laminated plates.  Governing equations in the Von Karman sense.  Laminated plates with moderately large deflections.  Post-buckling and nonlinear vibration of laminated plates.  Failure theories and experimental results for laminates. ",
     "ProfileLink": "http://atlas.ai.umich.edu/course/AEROSP%20516/",
     "Credits": 3,
-    "RawReqs": "Prerequisite: AEROSP 315 or MECHENG 412",
     "Aliases": [],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": false,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": false,
+      "Notes": "",
+      "Raw": "Prerequisite: AEROSP 315 or MECHENG 412. "
+    }
   },
   {
     "DeptKey": "aero",
@@ -476,10 +710,16 @@
     "Desc": "Concepts of stability and bifurcation. Simple examples to illustrate buckling and instability mechanisms in structures. Both equilibrium and time dependent problems discussed. General theory for stability in continuum, conservative elastic solids. Applications to bars, rings, plates and shells. ",
     "ProfileLink": "http://atlas.ai.umich.edu/course/AEROSP%20518/",
     "Credits": 3,
-    "RawReqs": "Prerequisite: AEROSP 315 or MECHENG 412 or the equivalent",
     "Aliases": [],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": false,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": false,
+      "Notes": "",
+      "Raw": "Prerequisite: AEROSP 315 or MECHENG 412 or the equivalent. "
+    }
   },
   {
     "DeptKey": "aero",
@@ -488,10 +728,16 @@
     "Desc": "Elements of inviscid compressible-flow theory: review of thermodynamics; equations of frictionless flow; analysis of unsteady one-dimensional and steady supersonic two-dimensional flows; including the method of characteristics; small-disturbance theory with applications to supersonic thin-airfoil theory. ",
     "ProfileLink": "http://atlas.ai.umich.edu/course/AEROSP%20520/",
     "Credits": 3,
-    "RawReqs": "Prerequisite: AEROSP 325",
     "Aliases": [],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": false,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": false,
+      "Notes": "",
+      "Raw": "Prerequisite: AEROSP 325. "
+    }
   },
   {
     "DeptKey": "aero",
@@ -500,10 +746,16 @@
     "Desc": "Fundamentals principles and practice of non-intrusive measurement techniques for compressible and incompressible flows.  Review of geometric and Gaussian beam optics; Laser Doppler Velocimetry; quantitative flow field measurement techniques including interferometry, Laser Induced Fluorescence and Particle Image Velocimetry.  Advanced data processing techniques for turbulent flow.  Error estimation. ",
     "ProfileLink": "http://atlas.ai.umich.edu/course/AEROSP%20521/",
     "Credits": 3,
-    "RawReqs": "Prerequisite: AEROSP 405 or Grad standing",
     "Aliases": [],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": false,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": false,
+      "Notes": "",
+      "Raw": "Prerequisite: AEROSP 405 or Grad standing. "
+    }
   },
   {
     "DeptKey": "aero",
@@ -512,10 +764,16 @@
     "Desc": "The Navier-Stokes equations, including elementary discussion of tensors, exact solutions.  Laminar boundary-layer theory; three-dimensional and compressible boundary layers.  Laminar-flow instability theory; transition.  Introduction to the mechanics of turbulence; turbulent free shear flows and boundary layers. ",
     "ProfileLink": "http://atlas.ai.umich.edu/course/AEROSP%20522/",
     "Credits": 3,
-    "RawReqs": "Prerequisite: AEROSP 325",
     "Aliases": [],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": false,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": false,
+      "Notes": "",
+      "Raw": "Prerequisite: AEROSP 325. "
+    }
   },
   {
     "DeptKey": "aero",
@@ -524,12 +782,18 @@
     "Desc": "Physical and mathematical foundations of computational fluid mechanics with emphasis on applications.  Solution methods for model equations and the Euler and the Navier-Stokes equations.  The finite volume formulation of the equations.  Classification of partial differential equations and solution techniques.  Truncation errors, stability, conservation, and monotonicity. ",
     "ProfileLink": "http://atlas.ai.umich.edu/course/AEROSP%20523/",
     "Credits": 3,
-    "RawReqs": "Prerequisite: AEROSP 325 or preceded or accompanied by MECHENG 520",
     "Aliases": [
       "MECHENG 523"
     ],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": false,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": false,
+      "Notes": "",
+      "Raw": "Prerequisite: AEROSP 325 or preceded or accompanied by MECHENG 520. "
+    }
   },
   {
     "DeptKey": "aero",
@@ -538,10 +802,16 @@
     "Desc": "Two- and three-dimensional potential flow about wings and bodies; complex-variable methods; singularity distributions; numerical solution using panel methods. Unsteady aerodynamics; slender-body theory. Viscous effects: airfoil stall, high-lift systems, boundary-layer control. Wings and bodies at transonic and supersonic speeds; numerical methods. ",
     "ProfileLink": "http://atlas.ai.umich.edu/course/AEROSP%20524/",
     "Credits": 3,
-    "RawReqs": "Prerequisite: AEROSP 325",
     "Aliases": [],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": false,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": false,
+      "Notes": "",
+      "Raw": "Prerequisite: AEROSP 325. "
+    }
   },
   {
     "DeptKey": "aero",
@@ -550,10 +820,16 @@
     "Desc": "Mathematical description of turbulent flow phenomena. Flow equations, vorticity dynamics, Reynolds-averaged equations, engineering turbulence models. Theory of homogeneous turbulence, spectral dynamics. Shear flow turbulence, mean and fluctuating structure of free and wall-bounded turbulent flows. ",
     "ProfileLink": "http://atlas.ai.umich.edu/course/AEROSP%20525/",
     "Credits": 3,
-    "RawReqs": "Prerequisite: AEROSP 522",
     "Aliases": [],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": false,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": false,
+      "Notes": "",
+      "Raw": "Prerequisite: AEROSP 522. "
+    }
   },
   {
     "DeptKey": "aero",
@@ -562,10 +838,16 @@
     "Desc": "Hypersonic vehicles offer rapid air transportation and access to space. This course provides an introduction to the aerothermodynamics of hypersonic vehicles. Topics covered include: vehicle types (missiles, space planes, air-breathers); flight dynamics (trajectory, range, stability); aerothermodynamics (fluid dynamics, thermodynamics, aerodynamics, heating); and propulsion systems (scramjets, combined cycles). ",
     "ProfileLink": "http://atlas.ai.umich.edu/course/AEROSP%20526/",
     "Credits": 3,
-    "RawReqs": "Prerequisite: Graduate standing or AEROSP 225 and AEROSP 325",
     "Aliases": [],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": false,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": false,
+      "Notes": "",
+      "Raw": "Prerequisite: Graduate standing or AEROSP 225 and AEROSP 325. "
+    }
   },
   {
     "DeptKey": "aero",
@@ -574,10 +856,16 @@
     "Desc": " ",
     "ProfileLink": "http://atlas.ai.umich.edu/course/AEROSP%20527/",
     "Credits": 3,
-    "RawReqs": "Prerequisite: AEROSP 325 or equivalent or permission of instructor",
     "Aliases": [],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": false,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": true,
+      "Notes": "",
+      "Raw": "Prerequisite: AEROSP 325 or equivalent or permission of instructor. "
+    }
   },
   {
     "DeptKey": "aero",
@@ -586,10 +874,16 @@
     "Desc": "Advanced analysis of turbojet engines: effect of altitude parameters on engine performance; off-design equilibrium running of a turbojet engine; dynamics of engine considered as a quasi-static system; fluid mechanics of a rotating axial blade row; centrifugal compressors; transonic flow problems. ",
     "ProfileLink": "http://atlas.ai.umich.edu/course/AEROSP%20530/",
     "Credits": 3,
-    "RawReqs": "Prerequisite: AEROSP 335",
     "Aliases": [],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": false,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": false,
+      "Notes": "",
+      "Raw": "Prerequisite: AEROSP 335. "
+    }
   },
   {
     "DeptKey": "aero",
@@ -598,10 +892,16 @@
     "Desc": "Analysis of basic gas properties at the molecular level. Kinetic theory: molecular collisions, the Boltzmann equation. Maxwellian distribution function. Quantum mechanics: the Schrodinger equation, quantum energy states for translation, rotation, vibration, and electronic models of atoms and molecules. Statistical mechanics: the Boltzmann relation, the Boltzmann energy distribution, partition functions. These ideas are combined for the analysis of a chemically reacting gas at the molecular level. ",
     "ProfileLink": "http://atlas.ai.umich.edu/course/AEROSP%20532/",
     "Credits": 3,
-    "RawReqs": "Prerequisite: Permission of instructor",
     "Aliases": [],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": false,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": true,
+      "Notes": "",
+      "Raw": "Prerequisite: Permission of instructor. "
+    }
   },
   {
     "DeptKey": "aero",
@@ -610,12 +910,18 @@
     "Desc": "This course covers the fundamentals of combustion systems and fire and explosion phenomena. Topics covered include thermochemistry, chemical kinetics, laminar flame propagation, detonations and explosions, flammability and ignition, spray combustion and the use of computer techniques in combustion problems. ",
     "ProfileLink": "http://atlas.ai.umich.edu/course/AEROSP%20533/",
     "Credits": 3,
-    "RawReqs": "Prerequisite: AEROSP 225",
     "Aliases": [
       "ENSCEN 533"
     ],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": false,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": false,
+      "Notes": "",
+      "Raw": "Prerequisite: AEROSP 225. "
+    }
   },
   {
     "DeptKey": "aero",
@@ -624,10 +930,16 @@
     "Desc": "Analysis of liquid and solid propellant rocket power plants; propellant thermochemistry, heat transfer, system considerations. Low-thrust rockets, multi-stage rockets, trajectories in powered flight, electric propulsion. ",
     "ProfileLink": "http://atlas.ai.umich.edu/course/AEROSP%20535/",
     "Credits": 3,
-    "RawReqs": "Prerequisite: AEROSP 335",
     "Aliases": [],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": false,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": false,
+      "Notes": "",
+      "Raw": "Prerequisite: AEROSP 335. "
+    }
   },
   {
     "DeptKey": "aero",
@@ -636,10 +948,16 @@
     "Desc": "Introduction to electric propulsion with an overview of electricity and magnetism, atomic physics, non-equilibrium flows and electrothermal, electromagnetic and electrostatic electric propulsion systems. ",
     "ProfileLink": "http://atlas.ai.umich.edu/course/AEROSP%20536/",
     "Credits": 3,
-    "RawReqs": "Prerequisite: AEROSP 335, senior standing",
     "Aliases": [],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": false,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": false,
+      "Notes": "",
+      "Raw": "Prerequisite: AEROSP 335, senior standing. "
+    }
   },
   {
     "DeptKey": "aero",
@@ -648,12 +966,18 @@
     "Desc": "Newton/Euler and Lagrangian formulations for three dimensional motion of particles and rigid bodies. Principles of dynamics applied to various rigid-body and multi-body dynamics problems that arise in aerospace and mechanical engineering. ",
     "ProfileLink": "http://atlas.ai.umich.edu/course/AEROSP%20540/",
     "Credits": 3,
-    "RawReqs": "Prerequisite: MECHENG 240",
     "Aliases": [
       "MECHENG 540"
     ],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": false,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": false,
+      "Notes": "",
+      "Raw": "Prerequisite: MECHENG 240. "
+    }
   },
   {
     "DeptKey": "aero",
@@ -662,10 +986,16 @@
     "Desc": "A Natural frequencies and mode shapes of elastic bodies. Non-conservative elastic systems.  Structural and viscous damping.  Influence coefficient methods for typical flight structures. Response of structures to random and shock loads. ",
     "ProfileLink": "http://atlas.ai.umich.edu/course/AEROSP%20543/",
     "Credits": 3,
-    "RawReqs": "Prerequisite: AEROSP 315 or AEROSP 540",
     "Aliases": [],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": false,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": false,
+      "Notes": "",
+      "Raw": "Prerequisite: AEROSP 315 or AEROSP 540. "
+    }
   },
   {
     "DeptKey": "aero",
@@ -674,10 +1004,16 @@
     "Desc": "Vibration and flutter of elastic bodies exposed to fluid flow.  Static divergence and flutter of airplane wings. Flutter of flat plates and thin walled cylinders at supersonic speeds.  Oscillations of structures due to vortex shedding. ",
     "ProfileLink": "http://atlas.ai.umich.edu/course/AEROSP%20544/",
     "Credits": 3,
-    "RawReqs": "Prerequisite: AEROSP 315 or AEROSP 540",
     "Aliases": [],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": false,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": false,
+      "Notes": "",
+      "Raw": "Prerequisite: AEROSP 315 or AEROSP 540. "
+    }
   },
   {
     "DeptKey": "aero",
@@ -686,10 +1022,16 @@
     "Desc": "This course deals with fundamental aspects of helicopter aerodynamics, performance, dynamics, stability and control, aeroelastic stability in flap-pitch, flap-lag and coupled flap-lag-torsion. Aeroelastic response in forward flight or the vibration problem is also considered. ",
     "ProfileLink": "http://atlas.ai.umich.edu/course/AEROSP%20545/",
     "Credits": 3,
-    "RawReqs": "Prerequisite: Preceded by AEROSP 315 and 325",
     "Aliases": [],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": false,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": false,
+      "Notes": "",
+      "Raw": "Prerequisite: Preceded by AEROSP 315 and 325. "
+    }
   },
   {
     "DeptKey": "aero",
@@ -698,10 +1040,16 @@
     "Desc": "Review of two-body problem for spacecraft: orbital trajectories, transfers, targeting and time of flight. Orbit perturbation formulations and analysis. Restricted 3-body problem and applications. ",
     "ProfileLink": "http://atlas.ai.umich.edu/course/AEROSP%20548/",
     "Credits": 3,
-    "RawReqs": "Prerequisite: AEROSP 343 or graduate standing (Advisory)",
     "Aliases": [],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": false,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": false,
+      "Notes": "",
+      "Raw": "Prerequisite: AEROSP 343 or graduate standing (Advisory). "
+    }
   },
   {
     "DeptKey": "aero",
@@ -710,10 +1058,16 @@
     "Desc": "The analysis, characterization and determination of space trajectories from a dynamical systems viewpoint. The general formulation and solution of the spacecraft trajectory design and navigation problems. Computation of periodic orbits and their stability. Estimation of model parameters from spacecraft tracking data (e.g., gravity field estimation). Elements of precision modeling and precision orbit determination. ",
     "ProfileLink": "http://atlas.ai.umich.edu/course/AEROSP%20549/",
     "Credits": 3,
-    "RawReqs": "Prerequisite: Either AEROSP 548, AEROSP 540, or AEROSP 573 – Permission of Instructor",
     "Aliases": [],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": false,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": true,
+      "Notes": "",
+      "Raw": "Prerequisite: Either AEROSP 548, AEROSP 540, or AEROSP 573 – Permission of Instructor. "
+    }
   },
   {
     "DeptKey": "aero",
@@ -722,14 +1076,20 @@
     "Desc": "Linear spaces and linear operators. Bases, subspaces, eigenvalues and eigenvectors, canonical forms. Linear differential and difference equations. Mathematical representations: state equations, transfer functions, impulse response, matrix fraction and polynomial descriptions. System-theoretic concepts: causality, controllability, observability, realizations, canonical decomposition, stability. ",
     "ProfileLink": "http://atlas.ai.umich.edu/course/AEROSP%20550/",
     "Credits": 4,
-    "RawReqs": "Prerequisite: Graduate standing",
     "Aliases": [
       "CEE 571",
       "EECS 560",
       "MECHENG 564"
     ],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": false,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": false,
+      "Notes": "",
+      "Raw": "Prerequisite: Graduate standing. "
+    }
   },
   {
     "DeptKey": "aero",
@@ -738,12 +1098,18 @@
     "Desc": "Introduction to the analysis and design of nonlinear systems and nonlinear control systems. Stability analysis using Liapunov, input-output and asymptotic methods. Design of stabilizing controllers using a variety of methods: linearization, absolute stability theory, vibrational control, sliding modes and feedback linearization. ",
     "ProfileLink": "http://atlas.ai.umich.edu/course/AEROSP%20551/",
     "Credits": 3,
-    "RawReqs": "Prerequisite: Graduate standing",
     "Aliases": [
       "EECS 562"
     ],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": false,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": false,
+      "Notes": "",
+      "Raw": "Prerequisite: Graduate standing. "
+    }
   },
   {
     "DeptKey": "aero",
@@ -752,10 +1118,16 @@
     "Desc": "Information systems for Aerospace applications. Data abstraction, elementary data structures. Graphs, automata theory. Life cycle models, validation \u0026 verification. Deterministic search algorithms. Decision making under uncertainty; review  of probability theory, introduction to information theory, Bayesian Networks, Markov chains, Markov Decision Processes. Substantial code development in a traditional programming language. ",
     "ProfileLink": "http://atlas.ai.umich.edu/course/AEROSP%20552/",
     "Credits": 350,
-    "RawReqs": "Prerequisite: AEROSP 350                                                                                                                      ",
     "Aliases": [],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": false,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": false,
+      "Notes": "",
+      "Raw": "Prerequisite: AEROSP 350                                                                                                                      "
+    }
   },
   {
     "DeptKey": "aero",
@@ -764,10 +1136,16 @@
     "Desc": "Methods of data analysis and empirical modeling.  Sensors and measurement concepts.  Time and frequency data analysis;  statistical and spectral concepts.  Linear regression and identification of time-series models.  Parameter estimation using optimization.  Basis-function expansions and nonlinear time series identification. Eigensystem realization and subspace identification.  Nonlinear state space identification. ",
     "ProfileLink": "http://atlas.ai.umich.edu/course/AEROSP%20566/",
     "Credits": 3,
-    "RawReqs": "Prerequisite: Graduate standing (3 credits)",
     "Aliases": [],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": false,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": false,
+      "Notes": "",
+      "Raw": "Prerequisite: Graduate standing "
+    }
   },
   {
     "DeptKey": "aero",
@@ -776,10 +1154,16 @@
     "Desc": "Theory and algorithms for synthesizing models and data for general applications across science and engineering. Topics include algorithms for maximum likelihood estimation, Bayesian inference, and regression for static inference problems and for estimation in dynamical systems. Theoretical foundations of the algorithms and projects that focus on implementation. ",
     "ProfileLink": "http://atlas.ai.umich.edu/course/AEROSP%20567/",
     "Credits": 3,
-    "RawReqs": "Prerequisite: None",
     "Aliases": [],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": true,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": false,
+      "Notes": "",
+      "Raw": ""
+    }
   },
   {
     "DeptKey": "aero",
@@ -788,10 +1172,16 @@
     "Desc": "Introduction to spacecraft dynamics and control.  Spacecraft orbit and attitude representations, kinematics, dynamics.  Perturbation equations for near circular orbits.  Spacecraft maneuvers formulated and solved as control problems. ",
     "ProfileLink": "http://atlas.ai.umich.edu/course/AEROSP%20573/",
     "Credits": 3,
-    "RawReqs": "Prerequisite: AEROSP 470 or graduate standing (Advisory)",
     "Aliases": [],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": false,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": false,
+      "Notes": "",
+      "Raw": "Prerequisite: AEROSP 470 or graduate standing (Advisory). "
+    }
   },
   {
     "DeptKey": "aero",
@@ -800,12 +1190,18 @@
     "Desc": "A graduate level introduction to physical and aeronomical processes in the space environment. Discussion of theoretical tools, the Sun, solar wind, heliosphere, magnetosphere, ionosphere and the upper atmosphere. Spacecraft interaction with radiation, spacecraft-plasma interactions. ",
     "ProfileLink": "http://atlas.ai.umich.edu/course/AEROSP%20574/",
     "Credits": 4,
-    "RawReqs": "Prerequisite: Senior or Graduate Standing",
     "Aliases": [
       "SPACE 574"
     ],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": false,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": false,
+      "Notes": "",
+      "Raw": "Prerequisite: Senior or Graduate Standing. "
+    }
   },
   {
     "DeptKey": "aero",
@@ -814,10 +1210,16 @@
     "Desc": "Formulation and solution of optimization problems for atmospheric flight vehicles and space flight vehicles. Optimality criteria, constraints, vehicle dynamics. Flight and trajectory optimization as problems of nonlinear programming, calculus of variations and optimal control. Algorithms and software for solution of flight and trajectory optimization problems. ",
     "ProfileLink": "http://atlas.ai.umich.edu/course/AEROSP%20575/",
     "Credits": 3,
-    "RawReqs": "Prerequisite: AEROSP 470 or graduate standing (Advisory)",
     "Aliases": [],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": false,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": false,
+      "Notes": "",
+      "Raw": "Prerequisite: AEROSP 470 or graduate standing (Advisory). "
+    }
   },
   {
     "DeptKey": "aero",
@@ -826,10 +1228,16 @@
     "Desc": "Review of Linear Algebra and Probability; Linear and Kernel Regression; Discovery of dynamical systems and PDEs from data; Statistical Learning Theory; Dimensionality reduction \u0026 Manifold Learning; Variational Inference \u0026 Variational Autoencoders; Compression/Sensing/Reconstruction; Projection-based Reduced Order Modeling. ",
     "ProfileLink": "http://atlas.ai.umich.edu/course/AEROSP%20577/",
     "Credits": 3,
-    "RawReqs": "Advisory Prerequisite: Good background in Linear Algebra, Probability and Statistics",
     "Aliases": [],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": false,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": false,
+      "Notes": "",
+      "Raw": "Advisory Prerequisite: Good background in Linear Algebra, Probability and Statistics. "
+    }
   },
   {
     "DeptKey": "aero",
@@ -838,10 +1246,16 @@
     "Desc": "Control-oriented modeling of structural and fluid-structure systems. Fixed-gain and adaptive disturbance rejection for vibration suppression. Application to aeroelastic flutter, limit-cycle oscillations, and gust alleviation. ",
     "ProfileLink": "http://atlas.ai.umich.edu/course/AEROSP%20579/",
     "Credits": 3,
-    "RawReqs": "Prerequisite: AEROSP 470 or graduate standing",
     "Aliases": [],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": false,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": false,
+      "Notes": "",
+      "Raw": "Prerequisite: AEROSP 470 or graduate standing. "
+    }
   },
   {
     "DeptKey": "aero",
@@ -850,10 +1264,16 @@
     "Desc": "Standard problem for state space and transfer function models.  Specialization to the basic servo loop with feedback and feedforward control.  Pole placement.  Internal model principle for commands and disturbances.  Stability, norms, and solution of the Lyapunov equation.  Treatment of the linear-quadratic regulator and linear-quadratic-Gaussian controllers.  Analysis of the Riccati equation. ",
     "ProfileLink": "http://atlas.ai.umich.edu/course/AEROSP%20580/",
     "Credits": 0,
-    "RawReqs": "Advisory Prerequisite: AEROSP 550",
     "Aliases": [],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": false,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": false,
+      "Notes": "",
+      "Raw": "Advisory Prerequisite: AEROSP 550.  (Credit for both AEROSP 580 and EECS 565 not allowed.)"
+    }
   },
   {
     "DeptKey": "aero",
@@ -862,12 +1282,18 @@
     "Desc": "The first part of the course will provide detailed information on how space policy is developed in the United States and the international space community, and how these policies result in specific missions.  The second part will provide detailed information on modern management techniques and processes.  Project managers from NASA centers and industry will lecture on the detailed management techniques and processes. ",
     "ProfileLink": "http://atlas.ai.umich.edu/course/AEROSP%20581/",
     "Credits": 3,
-    "RawReqs": "Prerequisite: Graduate standing",
     "Aliases": [
       "SPACE 581"
     ],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": false,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": false,
+      "Notes": "",
+      "Raw": "Prerequisite: Graduate standing. "
+    }
   },
   {
     "DeptKey": "aero",
@@ -876,12 +1302,18 @@
     "Desc": "Systematic and comprehensive review of spacecraft and space mission design and key technologies for space missions.  Discussions on project management and the economic and political factors that affect space missions. Specific space mission designs are developed in teams.  Students of AERO 483/583 choose their projects based on these designs.",
     "ProfileLink": "http://atlas.ai.umich.edu/course/AEROSP%20582/",
     "Credits": 4,
-    "RawReqs": "Prerequisite: Graduate standing",
     "Aliases": [
       "SPACE 582"
     ],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": false,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": false,
+      "Notes": "",
+      "Raw": "Prerequisite: Graduate standing. "
+    }
   },
   {
     "DeptKey": "aero",
@@ -890,10 +1322,16 @@
     "Desc": "Meets with Aero. Eng. 483 (Space System Design), or other senior design course when appropriate topic is chosen. Students in this course lead teams in high level project design of a space system. Modern methods of concurrent engineering manufacturing, marketing and finance, etc., are incorporated. ",
     "ProfileLink": "http://atlas.ai.umich.edu/course/AEROSP%20583/",
     "Credits": 4,
-    "RawReqs": "Prerequisite: Preceded by AEROSP 582",
     "Aliases": [],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": false,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": false,
+      "Notes": "",
+      "Raw": "Prerequisite: Preceded by AEROSP 582. "
+    }
   },
   {
     "DeptKey": "aero",
@@ -902,10 +1340,16 @@
     "Desc": "Principles of aerospace navigation and guidance. Deterministic and stochastic linear perturbation theory. Position fixing and celestial navigation with redundant measurements. Recursive navigation and Kalman filtering. Pursuit guidance, proportional navigation, ballistic guidance and velocity-to-be-gained guidance. ",
     "ProfileLink": "http://atlas.ai.umich.edu/course/AEROSP%20584/",
     "Credits": 3,
-    "RawReqs": "Prerequisite: AEROSP 470 or graduate standing (Advisory)",
     "Aliases": [],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": false,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": false,
+      "Notes": "",
+      "Raw": "Prerequisite: AEROSP 470 or graduate standing (Advisory). "
+    }
   },
   {
     "DeptKey": "aero",
@@ -914,10 +1358,16 @@
     "Desc": "A series of seminars by noted speakers designed to acquaint graduate and undergraduate students with contemporary research and technological issues in the aerospace industry. Involves a short term paper pertinent to one of the seminar topics. ",
     "ProfileLink": "http://atlas.ai.umich.edu/course/AEROSP%20585/",
     "Credits": 1,
-    "RawReqs": "Prerequisite: AEROSP 285 or senior standing",
     "Aliases": [],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": false,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": false,
+      "Notes": "",
+      "Raw": "Prerequisite: AEROSP 285 or senior standing. "
+    }
   },
   {
     "DeptKey": "aero",
@@ -926,10 +1376,16 @@
     "Desc": "Introduction to numerical optimization and its application to the design of aerospace systems, including: mathematical formulation of multidisciplinary design problems, overview of gradient-based and gradient-free algorithms, optimality conditions (unconstrained and constrained, Pareto optimality), sensitivity analysis and multidisciplinary problem decomposition. No background in aerospace is required. ",
     "ProfileLink": "http://atlas.ai.umich.edu/course/AEROSP%20588/",
     "Credits": 3,
-    "RawReqs": "Prerequisite: MATH 419 or equivalent, MATH 371 or equivalent, graduate standing",
     "Aliases": [],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": false,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": false,
+      "Notes": "",
+      "Raw": "Prerequisite: MATH 419 or equivalent, MATH 371 or equivalent, graduate standing. "
+    }
   },
   {
     "DeptKey": "aero",
@@ -938,10 +1394,16 @@
     "Desc": "Study of advanced aspects of aerospace engineering directed by an Aerospace faculty member. Primarily for graduates. The student will submit a final report. ",
     "ProfileLink": "http://atlas.ai.umich.edu/course/AEROSP%20590/",
     "Credits": 6,
-    "RawReqs": "Prerequisite: Graduate standing and permission of instructor",
     "Aliases": [],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": false,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": true,
+      "Notes": "",
+      "Raw": "Prerequisite: Graduate standing and permission of instructor. "
+    }
   },
   {
     "DeptKey": "aero",
@@ -950,12 +1412,18 @@
     "Desc": "Basic plasma concepts, Boltzmann equation, higher order moments equations, MHD equations, double adiabatic theory. Plasma expansion to vacuum, transonic flows, solar wind, polar wind. Collisionless shocks, propagating and planetary shocks. Fokker-Planck equation, quasilinear theory, velocity diffusion, cosmic ray transport, shock acceleration. Spacecraft charging, mass loading. ",
     "ProfileLink": "http://atlas.ai.umich.edu/course/AEROSP%20597/",
     "Credits": 3,
-    "RawReqs": "Prerequisite: Senior-level statistical physics course",
     "Aliases": [
       "SPACE 597"
     ],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": false,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": false,
+      "Notes": "",
+      "Raw": "Prerequisite: Senior-level statistical physics course. "
+    }
   },
   {
     "DeptKey": "aero",
@@ -964,10 +1432,16 @@
     "Desc": "Cyclic symmetry, design sensitivities and optimization. Applications to stress analysis, vibration, heat conduction, centrifugal effects, buckling. Introduction to high-level matrix-oriented programming languages (e.g., Direct Matrix Abstraction Program). Use of a large, general purpose finite element code as a research tool. ",
     "ProfileLink": "http://atlas.ai.umich.edu/course/AEROSP%20611/",
     "Credits": 3,
-    "RawReqs": "Prerequisite: AEROSP 511 or MECHENG 605",
     "Aliases": [],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": false,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": false,
+      "Notes": "",
+      "Raw": "Prerequisite: AEROSP 511 or MECHENG 605. "
+    }
   },
   {
     "DeptKey": "aero",
@@ -976,10 +1450,16 @@
     "Desc": "Differential geometry of surfaces. Linear and nonlinear plate and shell theories in curvilinear coordinates. Anisotropic and laminated shells. Stability and post-buckling behavior. Finite element techniques, including special considerations for collapse analysis. ",
     "ProfileLink": "http://atlas.ai.umich.edu/course/AEROSP%20614/",
     "Credits": 3,
-    "RawReqs": "Prerequisite: AEROSP 416",
     "Aliases": [],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": false,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": false,
+      "Notes": "",
+      "Raw": "Prerequisite: AEROSP 416. "
+    }
   },
   {
     "DeptKey": "aero",
@@ -988,13 +1468,19 @@
     "Desc": "Introduction to concepts of random vibration with applications in civil, mechanical and aerospace engineering. Topics include: characterization of random processes and random fields, calculus of random processes, applications of random vibrations to linear dynamical systems, brief discussion on applications to nonlinear dynamical systems. ",
     "ProfileLink": "http://atlas.ai.umich.edu/course/AEROSP%20615/",
     "Credits": 3,
-    "RawReqs": "Prerequisite: MATH 425 or equivalent, CEE 513 or MECHENG 541 or AEROSP 543 or equivalent",
     "Aliases": [
       "CEE 617",
       "MECHENG 649"
     ],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": false,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": false,
+      "Notes": "",
+      "Raw": "Prerequisite: MATH 425 or equivalent, CEE 513 or MECHENG 541 or AEROSP 543 or equivalent. "
+    }
   },
   {
     "DeptKey": "aero",
@@ -1003,10 +1489,16 @@
     "Desc": "Koiter’s theory for buckling, post-buckling, mode interaction and imperfection sensitivity behavior in nonlinear solids. Applications to thin-walled beams, cylindrical and spherical shells as well as to 3-D hyperelastic solids. Loss of ellipticity in finitely strained solids. Hill’s theory on bifurcation, uniqueness and post-bifurcation analysis in elastic-plastic solids with applications. ",
     "ProfileLink": "http://atlas.ai.umich.edu/course/AEROSP%20618/",
     "Credits": 518,
-    "RawReqs": "Prerequisite: AEROSP 518 or equivalent and graduate",
     "Aliases": [],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": false,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": false,
+      "Notes": "",
+      "Raw": "Prerequisite: AEROSP 518 or equivalent and graduate"
+    }
   },
   {
     "DeptKey": "aero",
@@ -1015,10 +1507,16 @@
     "Desc": "Advanced mathematical and physical concepts in computational fluid dynamics, with applications to one- and two-dimensional compressible flow. Euler and Navier-Stokes equations, numerical flux functions, boundary conditions, monotonicity, marching in time, marching to a steady state, grid generation. ",
     "ProfileLink": "http://art.ai.umich.edu/course/AEROSP%20623/",
     "Credits": 3,
-    "RawReqs": "Prerequisite: AEROSP 523 or equivalent, substantial computer programming experience, and AEROSP 520",
     "Aliases": [],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": false,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": false,
+      "Notes": "",
+      "Raw": "Prerequisite: AEROSP 523 or equivalent, substantial computer programming experience, and AEROSP 520. "
+    }
   },
   {
     "DeptKey": "aero",
@@ -1027,10 +1525,16 @@
     "Desc": "Fundamentals of turbulent shear flows, with emphasis on dimensional reasoning and similarity scaling. Development of laminar shear flows, instability and transition to turbulent flow, kinetic and scalar energy transport mechanisms in turbulent shear flows, critical examination of numerical methods for turbulent flows, comparisons with experiments. ",
     "ProfileLink": "http://atlas.ai.umich.edu/course/AEROSP%20625/",
     "Credits": 3,
-    "RawReqs": "Prerequisite: AEROSP 525",
     "Aliases": [],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": false,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": false,
+      "Notes": "",
+      "Raw": "Prerequisite: AEROSP 525. "
+    }
   },
   {
     "DeptKey": "aero",
@@ -1039,10 +1543,16 @@
     "Desc": "Linear and nonlinear surface waves. Flow instabilities; nonlinear stability analysis. Vorticity dynamics: vortex motions, instabilities and breakdown. Boundary layers: steady and unsteady interactions; nonlinear instability. ",
     "ProfileLink": "http://atlas.ai.umich.edu/course/AEROSP%20627/",
     "Credits": 3,
-    "RawReqs": "Prerequisite: AEROSP 520, AEROSP 522",
     "Aliases": [],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": false,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": false,
+      "Notes": "",
+      "Raw": "Prerequisite: AEROSP 520, AEROSP 522. "
+    }
   },
   {
     "DeptKey": "aero",
@@ -1051,10 +1561,16 @@
     "Desc": "Thermodynamics of gas mixtures, chemical kinetics, conservation equations for multi-component reacting gas mixtures, deflagration and detonation waves. Nozzle flows and boundary layers with reaction and diffusion. ",
     "ProfileLink": "http://art.ai.umich.edu/course/AEROSP%20633/",
     "Credits": 3,
-    "RawReqs": "Prerequisite: AEROSP 533",
     "Aliases": [],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": false,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": false,
+      "Notes": "",
+      "Raw": "Prerequisite: AEROSP 533. "
+    }
   },
   {
     "DeptKey": "aero",
@@ -1063,10 +1579,16 @@
     "Desc": "",
     "ProfileLink": "http://art.ai.umich.edu/course/AEROSP%20714/",
     "Credits": 0,
-    "RawReqs": "Prerequisite: Permission of instructor",
     "Aliases": [],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": false,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": true,
+      "Notes": "",
+      "Raw": "Prerequisite: Permission of instructor. Term offered depends on special topic (to be arranged) "
+    }
   },
   {
     "DeptKey": "aero",
@@ -1075,10 +1597,16 @@
     "Desc": "Advanced topics of current interest. ",
     "ProfileLink": "http://art.ai.umich.edu/course/AEROSP%20729/",
     "Credits": 0,
-    "RawReqs": "Prerequisite: Permission of instructor (to be arranged)",
     "Aliases": [],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": false,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": true,
+      "Notes": "",
+      "Raw": "Prerequisite: Permission of instructor (to be arranged)"
+    }
   },
   {
     "DeptKey": "aero",
@@ -1087,10 +1615,16 @@
     "Desc": "",
     "ProfileLink": "http://art.ai.umich.edu/course/AEROSP%20740/",
     "Credits": 0,
-    "RawReqs": " (to be arranged) ",
     "Aliases": [],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": false,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": false,
+      "Notes": " (to be arranged) ",
+      "Raw": ""
+    }
   },
   {
     "DeptKey": "aero",
@@ -1099,10 +1633,16 @@
     "Desc": "",
     "ProfileLink": "",
     "Credits": 0,
-    "RawReqs": "",
     "Aliases": [],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": false,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": false,
+      "Notes": "",
+      "Raw": ""
+    }
   },
   {
     "DeptKey": "aero",
@@ -1111,10 +1651,16 @@
     "Desc": "",
     "ProfileLink": "",
     "Credits": 0,
-    "RawReqs": "(to be arranged)",
     "Aliases": [],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": false,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": false,
+      "Notes": "(to be arranged)",
+      "Raw": ""
+    }
   },
   {
     "DeptKey": "aero",
@@ -1123,10 +1669,16 @@
     "Desc": "",
     "ProfileLink": "",
     "Credits": 0,
-    "RawReqs": "(to be arranged)",
     "Aliases": [],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": false,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": false,
+      "Notes": "(to be arranged)",
+      "Raw": ""
+    }
   },
   {
     "DeptKey": "aero",
@@ -1135,10 +1687,16 @@
     "Desc": "",
     "ProfileLink": "",
     "Credits": 0,
-    "RawReqs": "(to be arranged)",
     "Aliases": [],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": false,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": false,
+      "Notes": "(to be arranged)",
+      "Raw": ""
+    }
   },
   {
     "DeptKey": "aero",
@@ -1147,10 +1705,16 @@
     "Desc": "Dissertation work by doctoral student not yet admitted to status as candidate. The defense of the dissertation, that is, the final oral examination, must be held under a full-term candidacy enrollment. ",
     "ProfileLink": "http://atlas.ai.umich.edu/course/AEROSP%20990/",
     "Credits": 8,
-    "RawReqs": "(2-8 credits); (1-4 credits)",
     "Aliases": [],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": false,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": false,
+      "Notes": "; ",
+      "Raw": ""
+    }
   },
   {
     "DeptKey": "aero",
@@ -1159,9 +1723,15 @@
     "Desc": "Election for dissertation work by a doctoral student who has been admitted to candidate status. The defense of the dissertation, that is, the final oral examination, must be held under a full-term candidacy enrollment. ",
     "ProfileLink": "http://atlas.ai.umich.edu/course/AEROSP%20995/",
     "Credits": 8,
-    "RawReqs": "Prerequisite: Graduate School authorization for admission as a doctoral candidate",
     "Aliases": [],
-    "Prereqs": null,
-    "Coreqs": null
+    "ReqProps": {
+      "None": false,
+      "Enforced": null,
+      "Advisory": null,
+      "Standing": null,
+      "InstructorPerms": false,
+      "Notes": "",
+      "Raw": "Prerequisite: Graduate School authorization for admission as a doctoral candidate. ; "
+    }
   }
 ]

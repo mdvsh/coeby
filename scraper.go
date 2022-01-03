@@ -7,52 +7,12 @@ import (
 	"strings"
 
 	"github.com/anaskhan96/soup"
+	"github.com/mdvsh/coeby/structs"
 	"github.com/mdvsh/coeby/utils"
 )
 
-type DepartmentCourseMap struct {
-	Key           string
-	DeptName      string
-	CourseListURL string
-}
-
-type Course struct {
-	DeptKey     string
-	Key         string
-	Name        string
-	Desc        string
-	ProfileLink string
-	Credits     int
-	RawReqs     string
-	Aliases     []string
-	ReqProps    RequisiteProps
-}
-
-/*
-* requisite properteis include:
-* 		enforced
-* 		advisory
-* 		minimum grade in reqs
-* 		standing
-* 		permission of instructor
- */
-type RequisiteProps struct {
-	CourseKey       string
-	Enforced        []RequisiteCourse
-	Advisory        []RequisiteCourse
-	Standing        string
-	InstructorPerms bool
-}
-
-type RequisiteCourse struct {
-	Key               string
-	OrEquivalent      bool
-	KnownEquivalences []string
-	canAccompany      bool
-}
-
-func parseCourse(courseElem soup.Root, dept DepartmentCourseMap) Course {
-	var c Course
+func parseCourse(courseElem soup.Root, dept structs.DepartmentCourseMap) structs.Course {
+	var c structs.Course
 	var unparsedKeyName string
 	unparsedKeyName = courseElem.Find("strong").FullText()
 
@@ -81,20 +41,18 @@ func parseCourse(courseElem soup.Root, dept DepartmentCourseMap) Course {
 	reqsPlus := courseElem.Find("em")
 	// catch error if no cannot find element having information for reqs and credits
 	if utils.CheckElemExistence(reqsPlus) {
-		c.Prereqs = nil
-		c.Coreqs = nil
 		c.Credits = 0
 		return c
 	}
 
 	unparsedReqCreds := strings.Split(reqsPlus.Text(), ".")
 	c.Credits = utils.ParseCredits(unparsedReqCreds)
-	c.RawReqs = utils.CleanInvisText(unparsedReqCreds[0])
+	c.ReqProps = utils.ParseReqs(utils.CleanFromCredits(reqsPlus.Text()))
 	return c
 }
 
-func seedDeptCourses(dept DepartmentCourseMap) {
-	var courses []Course
+func seedDeptCourses(dept structs.DepartmentCourseMap) {
+	var courses []structs.Course
 
 	resp, err := soup.Get(dept.CourseListURL)
 	if err != nil && err.(soup.Error).Type == soup.ErrInGetRequest {
@@ -113,8 +71,8 @@ func seedDeptCourses(dept DepartmentCourseMap) {
 	utils.SaveDB(fname, courses)
 }
 
-func seedDepartments() []DepartmentCourseMap {
-	var depts []DepartmentCourseMap
+func seedDepartments() []structs.DepartmentCourseMap {
+	var depts []structs.DepartmentCourseMap
 
 	resp, err := soup.Get("https://bulletin.engin.umich.edu/courses/")
 	if err != nil && err.(soup.Error).Type == soup.ErrInGetRequest {
@@ -125,7 +83,7 @@ func seedDepartments() []DepartmentCourseMap {
 	departments := doc.Find("ul", "aria-labelledby", "menu-item-dropdown-897").FindAll("a")
 	for _, department := range departments[2:] {
 		link := department.Attrs()["href"]
-		depts = append(depts, DepartmentCourseMap{
+		depts = append(depts, structs.DepartmentCourseMap{
 			Key:           utils.GetKey(link),
 			DeptName:      department.Text(),
 			CourseListURL: link,
@@ -138,7 +96,7 @@ func seedDepartments() []DepartmentCourseMap {
 func main() {
 	fmt.Println("booting up coeby")
 
-	var depts []DepartmentCourseMap
+	var depts []structs.DepartmentCourseMap
 	if _, err := os.Stat("data/depts.json"); os.IsNotExist(err) {
 		fmt.Println("depts.json not found, fetching from bulletin")
 		depts = seedDepartments()

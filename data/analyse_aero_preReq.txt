@@ -1,0 +1,95 @@
+[ AEROSP 200 ] 
+[ AEROSP 201 ] Prerequisite: ENGR 100 (or equivalent) and 101 or 151 and PHYSICS 140 and 141 and MATH 116 or equivalent. Minimum grade of a “C-” for enforced prerequisites. 
+[ AEROSP 205 ] Prerequisites: PHYS 140, 141, MATH 116, ENGR 100, ENGR 101 or 151. 
+[ AEROSP 215 ] Advisory Prerequisite: Preceded or accompanied by MATH 216 and AEROSP 201. 
+[ AEROSP 225 ] Prerequisite: (MATH 215 or 255 or 285) and (CHEM 125 and130) and (PHYSICS 140 or 160) and PHYSICS 141. Minimum grade of a “C-” for enforced prerequisites. 
+[ AEROSP 290 ] Prerequisite: Permission of instructor 
+[ AEROSP 305 ] Advisory Prerequisite: Preceded by AEROSP 205, AEROSP 215, AEROSP 225, and PHYSICS 240 or PHYSICS 260
+[ AEROSP 315 ] Advisory Prerequisite: AEROSP 215 and MATH 216. 
+[ AEROSP 325 ] Advisory Prerequisite: preceded by MATH 216 and AEROSP 225. 
+[ AEROSP 335 ] Advisory Prerequisite: preceded by AEROSP 225 and MATH 216. 
+[ AEROSP 341 ] Prerequisite: MECHENG 240, MATH 216 and AEROSP 201. Minimum grade of a “C-” for enforced prerequisites. 
+[ AEROSP 343 ] Prerequisite: MECHENG 240, MATH 216 and AEROSP 201. Minimum grade of a “C-” for enforced prerequisites. 
+[ AEROSP 350 ] Advisory Prerequisite: MATH 216 and ENG 101. 
+[ AEROSP 384 ] Prerequisite: Preceded or accompanied by AEROSP 201 and AEROSP 215. 
+[ AEROSP 390 ] Prerequisite: Permission of instructor 
+[ AEROSP 405 ] Prerequisite: Preceded by AEROSP 305. Preceded or accompanied by AEROSP 315 and AEROSP 325. 
+[ AEROSP 416 ] Prerequisite: AEROSP 315. 
+[ AEROSP 421 ] Prerequisite: AEROSP 325. 
+[ AEROSP 423 ] Prerequisite: ENGR 101 or ENGR 151, MATH 216, and AEROSP 350 w/ minimum grade of C-. 
+[ AEROSP 445 ] Prerequisite: AEROSP 470 (Advisory). 
+[ AEROSP 447 ] Prerequisite: AEROSP 305 and AEROSP 341 (Advisory). 
+[ AEROSP 450 ] Prerequisite: ENGR 101 and AEROSP 201, or graduate standing. 
+[ AEROSP 470 ] Advisory Prerequisite: AEROSP 341 or AEROSP 343. 
+[ AEROSP 481 ] Prerequisite: Preceded by AEROSP 325. Preceded or accompanied by AEROSP 315, AEROSP 335 and AEROSP 348 (Advisory). 
+[ AEROSP 483 ] Prerequisite: preceded by AEROSP 343. Preceded or accompanied by AEROSP 315, 325, and 335 (Advisory). 
+[ AEROSP 484 ] Prerequisite: preceded by AEROSP 315, AEROSP 325, AEROSP 335, and AEROSP 341 or 343 (Advisory). 
+[ AEROSP 490 ] Prerequisite: Permission of instructor 
+[ AEROSP 495 ] Prerequisite: Permission of instructor. 
+[ AEROSP 500 ] 
+[ AEROSP 501 ] 
+[ AEROSP 502 ] 
+[ AEROSP 505 ] 
+[ AEROSP 510 ] Prerequisite: AEROSP 315. 
+[ AEROSP 511 ] Prerequisite: AEROSP 510 or MECHENG 505. 
+[ AEROSP 512 ] Prerequisite: AEROSP 305, AEROSP 315 or equivalents. 
+[ AEROSP 513 ] Prerequisite: AEROSP 315, MECHENG 311 or equivalent. 
+[ AEROSP 514 ] Prerequisite: AEROSP 315 or equivalent. 
+[ AEROSP 515 ] Prerequisite: AEROSP 514 or equivalent. 
+[ AEROSP 516 ] Prerequisite: AEROSP 315 or MECHENG 412. 
+[ AEROSP 518 ] Prerequisite: AEROSP 315 or MECHENG 412 or the equivalent. 
+[ AEROSP 520 ] Prerequisite: AEROSP 325. 
+[ AEROSP 521 ] Prerequisite: AEROSP 405 or Grad standing. 
+[ AEROSP 522 ] Prerequisite: AEROSP 325. 
+[ AEROSP 523 ] Prerequisite: AEROSP 325 or preceded or accompanied by MECHENG 520. 
+[ AEROSP 524 ] Prerequisite: AEROSP 325. 
+[ AEROSP 525 ] Prerequisite: AEROSP 522. 
+[ AEROSP 526 ] Prerequisite: Graduate standing or AEROSP 225 and AEROSP 325. 
+[ AEROSP 527 ] Prerequisite: AEROSP 325 or equivalent or permission of instructor. 
+[ AEROSP 530 ] Prerequisite: AEROSP 335. 
+[ AEROSP 532 ] Prerequisite: Permission of instructor. 
+[ AEROSP 533 ] Prerequisite: AEROSP 225. 
+[ AEROSP 535 ] Prerequisite: AEROSP 335. 
+[ AEROSP 536 ] Prerequisite: AEROSP 335, senior standing. 
+[ AEROSP 540 ] Prerequisite: MECHENG 240. 
+[ AEROSP 543 ] Prerequisite: AEROSP 315 or AEROSP 540. 
+[ AEROSP 544 ] Prerequisite: AEROSP 315 or AEROSP 540. 
+[ AEROSP 545 ] Prerequisite: Preceded by AEROSP 315 and 325. 
+[ AEROSP 548 ] Prerequisite: AEROSP 343 or graduate standing (Advisory). 
+[ AEROSP 549 ] Prerequisite: Either AEROSP 548, AEROSP 540, or AEROSP 573 – Permission of Instructor. 
+[ AEROSP 550 ] Prerequisite: Graduate standing. 
+[ AEROSP 551 ] Prerequisite: Graduate standing. 
+[ AEROSP 552 ] Prerequisite: AEROSP 350                                                                                                                      
+[ AEROSP 566 ] Prerequisite: Graduate standing 
+[ AEROSP 567 ] 
+[ AEROSP 573 ] Prerequisite: AEROSP 470 or graduate standing (Advisory). 
+[ AEROSP 574 ] Prerequisite: Senior or Graduate Standing. 
+[ AEROSP 575 ] Prerequisite: AEROSP 470 or graduate standing (Advisory). 
+[ AEROSP 577 ] Advisory Prerequisite: Good background in Linear Algebra, Probability and Statistics. 
+[ AEROSP 579 ] Prerequisite: AEROSP 470 or graduate standing. 
+[ AEROSP 580 ] Advisory Prerequisite: AEROSP 550.  (Credit for both AEROSP 580 and EECS 565 not allowed.)
+[ AEROSP 581 ] Prerequisite: Graduate standing. 
+[ AEROSP 582 ] Prerequisite: Graduate standing. 
+[ AEROSP 583 ] Prerequisite: Preceded by AEROSP 582. 
+[ AEROSP 584 ] Prerequisite: AEROSP 470 or graduate standing (Advisory). 
+[ AEROSP 585 ] Prerequisite: AEROSP 285 or senior standing. 
+[ AEROSP 588 ] Prerequisite: MATH 419 or equivalent, MATH 371 or equivalent, graduate standing. 
+[ AEROSP 590 ] Prerequisite: Graduate standing and permission of instructor. 
+[ AEROSP 597 ] Prerequisite: Senior-level statistical physics course. 
+[ AEROSP 611 ] Prerequisite: AEROSP 511 or MECHENG 605. 
+[ AEROSP 614 ] Prerequisite: AEROSP 416. 
+[ AEROSP 615 ] Prerequisite: MATH 425 or equivalent, CEE 513 or MECHENG 541 or AEROSP 543 or equivalent. 
+[ AEROSP 618 ] Prerequisite: AEROSP 518 or equivalent and graduate
+[ AEROSP 623 ] Prerequisite: AEROSP 523 or equivalent, substantial computer programming experience, and AEROSP 520. 
+[ AEROSP 625 ] Prerequisite: AEROSP 525. 
+[ AEROSP 627 ] Prerequisite: AEROSP 520, AEROSP 522. 
+[ AEROSP 633 ] Prerequisite: AEROSP 533. 
+[ AEROSP 714 ] Prerequisite: Permission of instructor. Term offered depends on special topic (to be arranged) 
+[ AEROSP 729 ] Prerequisite: Permission of instructor (to be arranged)
+[ AEROSP 740 ] 
+[ AEROSP 800 ] 
+[ AEROSP 820 ] 
+[ AEROSP 830 ] 
+[ AEROSP 840 ] 
+[ AEROSP 990 ] 
+[ AEROSP 995 ] Prerequisite: Graduate School authorization for admission as a doctoral candidate. ; 

@@ -6,6 +6,7 @@ import (
 	"strings"
 
 	"github.com/anaskhan96/soup"
+	"github.com/mdvsh/coeby/structs"
 )
 
 func GetKey(deptLink string) string {
@@ -40,6 +41,7 @@ func ParseKeyAliases(s string) (string, []string) {
 func ParseCredits(s []string) int {
 	var credits int
 	re := regexp.MustCompile("[0-9]+")
+	// find for creds in last element of s
 	credArr := re.FindAllString(s[len(s)-1], -1)
 	if len(credArr) == 0 {
 		credits = 0
@@ -66,6 +68,56 @@ func CleanInvisText(desc string) string {
 	return strings.Replace(desc, "\u00a0", " ", -1)
 }
 
-func ParseReqs(s []string) {
-	// todo
+func CleanFromCredits(raw string) string {
+	// get all substrings of parantheses containing the word credit
+	re := regexp.MustCompile(`\(([^\)]+)\)`)
+	creds := re.FindAllString(raw, -1)
+
+	for _, cred := range creds {
+		if strings.Contains(cred, "credit") {
+			raw = strings.Replace(raw, cred, "", -1)
+		}
+	}
+
+	return raw
+
+}
+
+func ParseReqs(raw string) structs.RequisiteProps {
+	var reqProps structs.RequisiteProps
+	rawlower := strings.ToLower(raw)
+	// c1: check for no pre req
+	if strings.Contains(raw, "None") || strings.Contains(raw, "none") {
+		reqProps.None = true
+		return reqProps
+	}
+
+	// c2: check for permission of instructor
+	if strings.Contains(rawlower, "permission") {
+		reqProps.InstructorPerms = true
+	}
+
+	// c3: prereqs
+	check := strings.Split(raw, ": ")
+	if len(check) == 0 {
+		return reqProps
+	} else if len(check) == 1 {
+		reqProps.Notes = CleanInvisText(check[0])
+		return reqProps
+	}
+
+	// when splits in key and valey for prereq
+	if strings.Contains(strings.ToLower(check[0]), "prerequisite") {
+		handlePrereqs(check[1], &reqProps)
+	}
+
+	reqProps.Raw = raw
+
+	// print temp
+	return reqProps
+}
+
+func handlePrereqs(raw string, reqProps *structs.RequisiteProps) {
+	// split by commas
+
 }
